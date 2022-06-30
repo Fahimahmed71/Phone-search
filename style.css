@@ -1,0 +1,66 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+header h1 {
+  font-weight: bold;
+  color: #3189d1;
+}
+
+header .switch-btn {
+  position: absolute;
+  right: 5%;
+  top: 1%;
+  border: none;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .switch-btn span {
+  display: inline-block;
+  font-family: var(--Smooch_Sans);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #1c1d68;
+  text-transform: uppercase;
+}
+
+header .switch {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #1c1d68;
+  border-radius: 15px;
+}
+
+header .slide .switch {
+  left: 50%;
+  background-color: dimgray;
+}
+
+header #search-btn {
+  background-color: #3189d1;
+  border: none;
+  color: #fff;
+}
+
+header #search-btn:hover {
+  background-color: #1c1d68;
+}
+
+.card {
+  border-radius: 15px;
+}
+/*# sourceMappingURL=style.css.map */

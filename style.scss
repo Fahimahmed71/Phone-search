@@ -1,0 +1,61 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+header {
+  h1 {
+    font-weight: bold;
+    color: rgb(49, 137, 209);
+  }
+
+  .switch-btn {
+    position: absolute;
+    right: 5%;
+    top: 1%;
+    border: none;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    span {
+      display: inline-block;
+      font-family: var(--Smooch_Sans);
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      color: rgb(28, 29, 104);
+      text-transform: uppercase;
+    }
+  }
+  .switch {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(28, 29, 104);
+    border-radius: 15px;
+  }
+
+  .slide .switch {
+    left: 50%;
+    background-color: rgb(105, 105, 105);
+  }
+
+  #search-btn {
+    background-color: rgb(49, 137, 209);
+    border: none;
+    color: #fff;
+  }
+
+  #search-btn:hover {
+    background-color: rgb(28, 29, 104);
+  }
+}
+
+.card {
+  border-radius: 15px;
+}

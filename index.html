@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- javascript -->
+    <script src="./app.js" defer></script>
+
+    <title>Phone Search</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="text-center">Phone Search</h1>
+
+      <button class="switch-btn d-none d-sm-block">
+        <span>Light</span>
+
+        <span>Dark</span>
+
+        <span class="switch"></span>
+      </button>
+
+      <div class="d-flex justify-content-center mt-3">
+        <input type="text" id="search-box" />
+        <button id="search-btn" class="px-3">Search</button>
+      </div>
+    </header>
+
+    <section class="d-flex justify-content-center my-5">
+      <div class="card mb-3" style="max-width: 540px" id="divCardInfo"></div>
+    </section>
+
+    <section class="container mt-5">
+      <div class="row justify-content-center" id="div-card"></div>
+    </section>
+
+    <!-- bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
